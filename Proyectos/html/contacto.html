@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - América García Cedeño</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Iconos Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+  <div class="container py-5">
+    
+    <!-- Título -->
+    <h1 class="fw-bold text-center mb-4 animate-text">
+      Contáctame
+    </h1>
+
+    <p class="text-center lead mx-auto animate-text" style="max-width: 700px;">
+      Si deseas comunicarte conmigo, puedes enviarme un mensaje a través del formulario o mediante mis redes sociales.  
+      Estoy disponible para colaborar, aprender y seguir creciendo profesionalmente.
+    </p>
+
+    <!-- Contenedor principal -->
+    <div class="row justify-content-center mt-5">
+
+      <!-- Columna del formulario -->
+      <div class="col-md-6">
+        <form action="#" method="POST" class="p-4 rounded shadow bg-white">
+
+          <div class="mb-3 text-start">
+            <label for="nombre" class="form-label fw-bold">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Escribe tu nombre" required>
+          </div>
+
+          <div class="mb-3 text-start">
+            <label for="email" class="form-label fw-bold">Correo electrónico</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Ejemplo: nombre@email.com" required>
+          </div>
+
+          <div class="mb-3 text-start">
+            <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="form-control" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-100 shadow-sm">
+            <i class="bi bi-send-fill"></i> Enviar mensaje
+          </button>
+
+        </form>
+      </div>
+
+      <!-- Columna de información -->
+      <div class="col-md-4 mt-5 mt-md-0 text-center animate-text" right="50">
+        <img src="../img/contacto.jpg" alt="Foto de América García" class="contact-img mb-4 shadow">
+
+
+        <h4 class="fw-bold">América García Cedeño</h4>
+        <p>Estudiante de Ingeniería en Tecnologías de la Información</p>
+        <p><i class="bi bi-geo-alt-fill text-primary"></i> Cantón Sucre, Manabí - Ecuador</p>
+
+        <hr>
+
+        <p>
+          <i class="bi bi-envelope-fill text-primary"></i>
+          <strong>Correo:</strong> agarcia7404@utm.edu.ec
+        </p>
+        <p>
+          <i class="bi bi-telephone-fill text-primary"></i>
+          <strong>Teléfono:</strong> +593 98 632 7411
+        </p>
+
+        <div class="mt-3">
+          <a href="www.linkedin.com/in/america-liduvina-garcia-cedeño-782951395" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/America130" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.facebook.com/lidu.garcia.14" target="_blank" class="btn btn-outline-primary btn-sm">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frase final -->
+    <p class="frase text-center mt-5">
+      “Cada meta alcanzada comienza con un pequeño paso.”
+    </p>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
